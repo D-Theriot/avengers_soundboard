@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'character_page.dart';
 
 class CharacterButton extends StatelessWidget {
   final String character;
@@ -7,20 +8,33 @@ class CharacterButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final String image = character.split(" ").join("");
-    return Column(
-      children: <Widget>[
-        FlatButton(
-          child: Container(
-            height: 100.0,
-            color: Colors.blue,
-            child: Image.asset('assets/character_images/$image.png'), // TODO: switch to image
+    return Padding(
+      padding: const EdgeInsets.all(30.0),
+      child: Column(
+        children: <Widget>[
+          FlatButton(
+            child: Container(
+              height: 100.0,
+              color: Colors.blue,
+              child: Image.asset(
+                  'assets/character_images/$image.png'), // TODO: switch to image
+            ),
+            onPressed: () => Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => CharacterPage(
+                          character: character,
+                        ))),
           ),
-          onPressed: () => print("Pressed on $character"),
-        ),
-        Container(
-          child: Text(character, style: TextStyle(fontFamily: 'Gloria', fontSize: 20.0, color: Colors.red),),
-        ),
-      ],
+          Container(
+            child: Text(
+              character,
+              style: TextStyle(
+                  fontFamily: 'Gloria', fontSize: 20.0, color: Colors.red),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
