@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'pick_avenger.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -9,7 +10,8 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.purple[900],
+      backgroundColor: Color(0xFF333366),
+      body: PickAvenger(),
     );
   }
 }
