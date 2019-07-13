@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:audioplayers/audio_cache.dart';
+import 'package:avengers_soundboard/sound_btn_select/sound_btn_brain.dart';
 
 class CharacterPage extends StatelessWidget {
   final String character;
@@ -6,8 +8,15 @@ class CharacterPage extends StatelessWidget {
   CharacterPage({this.character});
 
   FlatButton buildSoundButton(int number) {
+  //   void playSound(int soundNumber) {
+  //   final player = AudioCache();
+  //   player.play('note$soundNumber.wav');
+  // }
     return FlatButton(
-      child: Image.asset(''),
+      child: Image.asset('assets/character_images/IronMan.png', height: 100.0,),
+      onPressed: () {
+        print("howdy");
+      },
     );
   }
 
@@ -20,7 +29,9 @@ class CharacterPage extends StatelessWidget {
         backgroundColor: Color(0xFF333366),
       ),
       body: Column(children: <Widget>[
-        Container(),
+        buildSoundButton(1),
+        buildSoundButton(2),
+        buildSoundButton(3),
       ],),
     );
   }

@@ -7,7 +7,8 @@ class CharacterButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final String image = character.split(" ").join("");
+    final String image = character.split(" ").join(""); // Need to parse string to fit image name
+
     return Padding(
       padding: const EdgeInsets.all(30.0),
       child: Column(
@@ -17,7 +18,7 @@ class CharacterButton extends StatelessWidget {
               height: 100.0,
               color: Colors.blue,
               child: Image.asset(
-                  'assets/character_images/$image.png'), // TODO: switch to image
+                  'assets/character_images/$image.png'),
             ),
             onPressed: () => Navigator.push(
                 context,

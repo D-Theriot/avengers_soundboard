@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'character_selection/character_row.dart';
+import 'character_selection/character_col.dart';
 
 class PickAvenger extends StatefulWidget {
   @override
@@ -16,11 +16,11 @@ class _PickAvengerState extends State<PickAvenger> {
           // Header
           Padding(padding: EdgeInsets.all(16.0), child: Image.asset('assets/avengers_header.jpg'),),
           // Column for buttons
-          Column(
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: <Widget>[
-              CharacterRow(character1: 'Iron Man', character2: 'Captain America',),
-              CharacterRow(character1: 'Iron Man', character2: 'Captain America',),
-              CharacterRow(character1: 'Iron Man', character2: 'Captain America',)
+              CharacterCol(character1: 'Iron Man', character2: 'Thor', character3: 'Black Widow',),
+              CharacterCol(character1: 'Captain America', character2: 'Hulk', character3: 'Hawkeye',),
             ],
           ),
         ],
