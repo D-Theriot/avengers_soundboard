@@ -30,31 +30,31 @@ class SoundBtnBrain {
 
   //ironman, iron man
   List<SoundBtn> _ironman = [
-    SoundBtn('', '', 1),
+    SoundBtn('soundbtns/images/ironman/IronMan.png', 'soundbtns/images/ironman/ironman1.wav'),
   ];
 
   // captainamerica, captain america
   List<SoundBtn> _captainamerica = [
-    SoundBtn('', '', 1),
+    SoundBtn('', ''),
   ];
 
   // thor
   List<SoundBtn> _thor = [
-    SoundBtn('', '', 1),
+    SoundBtn('', ''),
   ];
 
   // hulk
   List<SoundBtn> _hulk = [
-    SoundBtn('', '', 1),
+    SoundBtn('', ''),
   ];
 
   // blackwidow, black widow
   List<SoundBtn> _blackwidow = [
-    SoundBtn('', '', 1),
+    SoundBtn('', ''),
   ];
 
   // hawkeye
   List<SoundBtn> _hawkeye = [
-    SoundBtn('', '', 1),
+    SoundBtn('', ''),
   ];
 }
