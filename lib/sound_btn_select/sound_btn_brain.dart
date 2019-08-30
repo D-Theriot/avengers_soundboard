@@ -30,7 +30,7 @@ class SoundBtnBrain {
 
   //ironman, iron man
   List<SoundBtn> _ironman = [
-    SoundBtn('soundbtns/images/ironman/IronMan.png', 'soundbtns/images/ironman/ironman1.wav'),
+    SoundBtn('soundbtns/images/ironman/IronMan.png', 'soundbtns/sounds/ironman/ironman1.wav'),
   ];
 
   // captainamerica, captain america

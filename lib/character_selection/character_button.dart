@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'character_page.dart';
+import 'package:avengers_soundboard/size_config.dart';
+
 
 class CharacterButton extends StatelessWidget {
   final String character;
@@ -7,7 +9,9 @@ class CharacterButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final String image = character.split(" ").join(""); // Need to parse string to fit image name
+    final String image =
+        character.split(" ").join(""); // Need to parse string to fit image name
+    SizeConfig().init(context);
 
     return Padding(
       padding: const EdgeInsets.all(10.0),
@@ -15,10 +19,9 @@ class CharacterButton extends StatelessWidget {
         children: <Widget>[
           FlatButton(
             child: Container(
-              height: 80.0,
+              height: SizeConfig.blockSizeVertical * 15,
               color: Colors.blue,
-              child: Image.asset(
-                  'assets/character_images/$image.png'),
+              child: Image.asset('assets/character_images/$image.png'),
             ),
             onPressed: () => Navigator.push(
                 context,
@@ -27,12 +30,9 @@ class CharacterButton extends StatelessWidget {
                           character: character,
                         ))),
           ),
-          Container(
-            child: Text(
-              character,
-              style: TextStyle(
-                  fontFamily: 'Gloria', fontSize: 20.0, color: Colors.red),
-            ),
+          Text(
+            character,
+            style: TextStyle(fontFamily: 'Gloria', fontSize: 19.0, color: Colors.red),
           ),
         ],
       ),

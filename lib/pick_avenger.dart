@@ -14,15 +14,26 @@ class _PickAvengerState extends State<PickAvenger> {
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
           // Header
-          Padding(padding: EdgeInsets.all(16.0), child: Image.asset('assets/avengers_header.jpg'),),
+          Expanded(
+            child: Image.asset('assets/avengers_header.jpg'),
+          ),
           // Column for buttons
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: <Widget>[
-              CharacterCol(character1: 'Iron Man', character2: 'Thor', character3: 'Black Widow',),
-              CharacterCol(character1: 'Captain America', character2: 'Hulk', character3: 'Hawkeye',),
+              CharacterCol(
+                character1: 'Iron Man',
+                character2: 'Thor',
+                character3: 'Black Widow',
+              ),
+              CharacterCol(
+                character1: 'Captain America',
+                character2: 'Hulk',
+                character3: 'Hawkeye',
+              ),
             ],
           ),
+          Text('Created by Dylan Theriot', style: TextStyle(color: Colors.white),),
         ],
       ),
     );
