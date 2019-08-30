@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audio_cache.dart';
+import 'sound_btn.dart';
 
 class ReusableSoundBtn extends StatelessWidget {
+
+  final SoundBtn charSoundBtn;
+  final Color colour;
+
+  ReusableSoundBtn({@required this.charSoundBtn, @required this.colour});
 
   void playSound(String soundFile) {
     final player = AudioCache();
@@ -15,7 +21,7 @@ class ReusableSoundBtn extends StatelessWidget {
         margin: EdgeInsets.all(10.0),
         child: Material(
           borderRadius: BorderRadius.circular(10.0),
-          color: Colors.yellow,
+          color: colour,
           child: InkWell(
             onTap: () {
               playSound('soundbtns/sounds/ironman/ironman1.wav');

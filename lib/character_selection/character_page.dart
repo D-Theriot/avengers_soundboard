@@ -33,24 +33,32 @@ class CharacterPage extends StatelessWidget {
           Expanded(
             child: Row(
               children: <Widget>[
-                ReusableSoundBtn(),
-                ReusableSoundBtn(),
+                ReusableSoundBtn(
+                    charSoundBtn: charSoundBtns[0], colour: Colors.red),
+                ReusableSoundBtn(
+                    charSoundBtn: charSoundBtns[1], colour: Colors.blue),
               ],
             ),
           ),
           Expanded(
             child: Row(
               children: <Widget>[
-                ReusableSoundBtn(),
-                ReusableSoundBtn(),
+                ReusableSoundBtn(
+                    charSoundBtn: charSoundBtns[2], colour: Colors.yellow),
+                ReusableSoundBtn(
+                    charSoundBtn: charSoundBtns[3], colour: Colors.green),
               ],
             ),
           ),
           Expanded(
             child: Row(
               children: <Widget>[
-                ReusableSoundBtn(),
-                ReusableSoundBtn(),
+                ReusableSoundBtn(
+                    charSoundBtn: charSoundBtns[4], colour: Colors.orange),
+                ReusableSoundBtn(
+                  charSoundBtn: charSoundBtns[5],
+                  colour: Colors.purple,
+                ),
               ],
             ),
           ),
