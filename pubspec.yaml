@@ -24,6 +24,11 @@ flutter:
     - assets/
     - assets/character_images/
     - assets/soundbtns/sounds/ironman/
+    - assets/soundbtns/sounds/captainamerica/
+    - assets/soundbtns/sounds/thor/
+    - assets/soundbtns/sounds/hulk/
+    - assets/soundbtns/sounds/blackwidow/
+    - assets/soundbtns/sounds/hawkeye/
 
   fonts:
   - family: Gloria

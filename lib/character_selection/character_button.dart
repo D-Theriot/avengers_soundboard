@@ -9,8 +9,7 @@ class CharacterButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final String image =
-        character.split(" ").join(""); // Need to parse string to fit image name
+    String image = character.split(" ").join(""); // Need to parse string to fit image name
     SizeConfig().init(context);
 
     return Padding(

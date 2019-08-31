@@ -24,13 +24,12 @@ class ReusableSoundBtn extends StatelessWidget {
           color: colour,
           child: InkWell(
             onTap: () {
-              playSound('soundbtns/sounds/ironman/ironman1.wav');
+              playSound(charSoundBtn.soundFile);
             },
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Text('1', style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold)),
-                Text('Yes'),
+                Text(charSoundBtn.btnText, textAlign: TextAlign.center, style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold)),
               ],
             ),
           ),

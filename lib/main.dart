@@ -5,5 +5,6 @@ void main() => runApp(MaterialApp(
   title: 'Avenger\'s Soundboard',
   //debugShowCheckedModeBanner: false,
   home: Home(),
+  debugShowCheckedModeBanner: false,
 ));
 

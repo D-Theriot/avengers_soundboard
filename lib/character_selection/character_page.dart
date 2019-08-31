@@ -13,7 +13,9 @@ class CharacterPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<SoundBtn> charSoundBtns = soundBrain.getCharacterSounds(character);
+    
+    String characterParsed = character.split(" ").join("").toLowerCase();
+    List<SoundBtn> charSoundBtns = soundBrain.getCharacterSounds(characterParsed);
 
     SizeConfig().init(context);
 
@@ -34,9 +36,13 @@ class CharacterPage extends StatelessWidget {
             child: Row(
               children: <Widget>[
                 ReusableSoundBtn(
-                    charSoundBtn: charSoundBtns[0], colour: Colors.red),
+                  charSoundBtn: charSoundBtns[0],
+                  colour: Colors.red,
+                ),
                 ReusableSoundBtn(
-                    charSoundBtn: charSoundBtns[1], colour: Colors.blue),
+                  charSoundBtn: charSoundBtns[1],
+                  colour: Colors.blue,
+                ),
               ],
             ),
           ),
@@ -44,9 +50,13 @@ class CharacterPage extends StatelessWidget {
             child: Row(
               children: <Widget>[
                 ReusableSoundBtn(
-                    charSoundBtn: charSoundBtns[2], colour: Colors.yellow),
+                  charSoundBtn: charSoundBtns[2],
+                  colour: Colors.yellow,
+                ),
                 ReusableSoundBtn(
-                    charSoundBtn: charSoundBtns[3], colour: Colors.green),
+                  charSoundBtn: charSoundBtns[3],
+                  colour: Colors.green,
+                ),
               ],
             ),
           ),
@@ -54,7 +64,9 @@ class CharacterPage extends StatelessWidget {
             child: Row(
               children: <Widget>[
                 ReusableSoundBtn(
-                    charSoundBtn: charSoundBtns[4], colour: Colors.orange),
+                  charSoundBtn: charSoundBtns[4],
+                  colour: Colors.orange,
+                ),
                 ReusableSoundBtn(
                   charSoundBtn: charSoundBtns[5],
                   colour: Colors.purple,

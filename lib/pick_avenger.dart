@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'character_selection/character_col.dart';
+import 'package:audioplayers/audio_cache.dart';
 
 class PickAvenger extends StatefulWidget {
   @override
@@ -15,7 +16,12 @@ class _PickAvengerState extends State<PickAvenger> {
         children: <Widget>[
           // Header
           Expanded(
-            child: Image.asset('assets/avengers_header.jpg'),
+            child: GestureDetector(
+                child: Image.asset('assets/avengers_header.jpg'),
+                onTap: () {
+                  final player = AudioCache();
+                  player.play('avengers_theme.mp3');
+                }),
           ),
           // Column for buttons
           Row(
@@ -33,7 +39,10 @@ class _PickAvengerState extends State<PickAvenger> {
               ),
             ],
           ),
-          Text('Created by Dylan Theriot', style: TextStyle(color: Colors.white),),
+          Text(
+            'Developed by Dylan Theriot \'22',
+            style: TextStyle(color: Colors.white),
+          ),
         ],
       ),
     );
