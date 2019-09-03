@@ -20,5 +20,5 @@ Also, I purposefully did not include any quotes from Infinity War or EndGame in 
 ![captain america quotes](readme_images/captainamerica.png)
 ![thor quotes](readme_images/thor.png)
 ![hulk quotes](readme_images/hulk.png)
-![black widow quotes](readme_images/blackwidow.png)
+![black widow quotes](https://github.com/dylantheriot/avengers_soundboard/blob/master/readme_images/blackwidow.PNG)
 ![hawkeye quotes](readme_images/hawkeye.png)
