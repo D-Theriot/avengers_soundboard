@@ -15,10 +15,10 @@ Also, I purposefully did not include any quotes from Infinity War or EndGame in 
 
 ## Images
 
-<img src="characterSelect.png" alt="Character Selection Screen" width="150"/> 
-<img src="ironman.png" alt="Iron Man Quotes" width="150"/> 
-<img src="captainamerica.png" alt="Captain America Quotes" width="150"/> 
-<img src="thor.png" alt="Thor Quotes" width="150"/> 
-<img src="hulk.png" alt="Hulk Quotes" width="150"/> 
-<img src="blackwidow.png" alt="Black Widow Quotes" width="150"/> 
-<img src="hawkeye.png" alt="Hawkeye Quotes" width="150"/> 
+![characterSelect](readme_images/characterSelect.png)
+![iron man quotes](readme_images/ironman.png)
+![captain america quotes](readme_images/captainamerica.png)
+![thor quotes](readme_images/thor.png)
+![hulk quotes](readme_images/hulk.png)
+![black widow quotes](readme_images/blackwidow.png)
+![hawkeye quotes](readme_images/hawkeye.png)
