@@ -24,10 +24,10 @@ Also, I purposefully did not include any quotes from Infinity War or EndGame in 
 ![hawkeye quotes](readme_images/characterSelect.png) -->
 
 
-<img src="characterSelect.png" alt="Character Selection Screen" width="150"/> 
-<img src="ironman.png" alt="Iron Man Quotes" width="150"/> 
-<img src="captainamerica.png" alt="Captain America Quotes" width="150"/> 
-<img src="thor.png" alt="Thor Quotes" width="150"/> 
-<img src="hulk.png" alt="Hulk Quotes" width="150"/> 
+<img src="https://github.com/dylantheriot/avengers_soundboard/blob/master/readme_images/characterSelect.png" alt="Character Selection Screen" width="150"/> 
+<img src="https://github.com/dylantheriot/avengers_soundboard/blob/master/readme_images/ironman.png" alt="Iron Man Quotes" width="150"/> 
+<img src="https://github.com/dylantheriot/avengers_soundboard/blob/master/readme_images/captainamerica.png" alt="Captain America Quotes" width="150"/> 
+<img src="https://github.com/dylantheriot/avengers_soundboard/blob/master/readme_images/thor.png" alt="Thor Quotes" width="150"/> 
+<img src="https://github.com/dylantheriot/avengers_soundboard/blob/master/readme_images/hulk.png" alt="Hulk Quotes" width="150"/> 
 <img src="https://github.com/dylantheriot/avengers_soundboard/blob/master/readme_images/blackwidow.PNG" alt="Black Widow Quotes" width="150"/> 
-<img src="hawkeye.png" alt="Hawkeye Quotes" width="150"/> 
+<img src="https://github.com/dylantheriot/avengers_soundboard/blob/master/readme_images/hawkeye.png" alt="Hawkeye Quotes" width="150"/> 
