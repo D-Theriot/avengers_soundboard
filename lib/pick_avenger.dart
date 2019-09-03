@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'character_selection/character_col.dart';
 import 'package:audioplayers/audio_cache.dart';
+import 'package:avengers_soundboard/globals.dart';
 
 class PickAvenger extends StatefulWidget {
   @override
@@ -19,7 +20,6 @@ class _PickAvengerState extends State<PickAvenger> {
             child: GestureDetector(
                 child: Image.asset('assets/avengers_header.jpg'),
                 onTap: () {
-                  final player = AudioCache();
                   player.play('avengers_theme.mp3');
                 }),
           ),

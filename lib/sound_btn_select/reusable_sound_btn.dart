@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audio_cache.dart';
 import 'sound_btn.dart';
+import 'package:avengers_soundboard/globals.dart';
 
 class ReusableSoundBtn extends StatelessWidget {
 
@@ -10,7 +11,6 @@ class ReusableSoundBtn extends StatelessWidget {
   ReusableSoundBtn({@required this.charSoundBtn, @required this.colour});
 
   void playSound(String soundFile) {
-    final player = AudioCache();
     player.play(soundFile);
   }
 
