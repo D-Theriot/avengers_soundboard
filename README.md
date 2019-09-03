@@ -15,10 +15,19 @@ Also, I purposefully did not include any quotes from Infinity War or EndGame in 
 
 ## Images
 
-![characterSelect](readme_images/characterSelect.png)
+<!-- ![characterSelect](readme_images/characterSelect.png)
 ![iron man quotes](readme_images/ironman.png)
 ![captain america quotes](readme_images/captainamerica.png)
 ![thor quotes](readme_images/thor.png)
 ![hulk quotes](readme_images/hulk.png)
-![black widow quotes](https://github.com/dylantheriot/avengers_soundboard/blob/master/readme_images/blackwidow.PNG)
-![hawkeye quotes](readme_images/hawkeye.png)
+![black widow quotes](readme_images/blackwidow.png)
+![hawkeye quotes](readme_images/characterSelect.png) -->
+
+
+<img src="characterSelect.png" alt="Character Selection Screen" width="150"/> 
+<img src="ironman.png" alt="Iron Man Quotes" width="150"/> 
+<img src="captainamerica.png" alt="Captain America Quotes" width="150"/> 
+<img src="thor.png" alt="Thor Quotes" width="150"/> 
+<img src="hulk.png" alt="Hulk Quotes" width="150"/> 
+<img src="https://github.com/dylantheriot/avengers_soundboard/blob/master/readme_images/blackwidow.PNG" alt="Black Widow Quotes" width="150"/> 
+<img src="hawkeye.png" alt="Hawkeye Quotes" width="150"/> 
